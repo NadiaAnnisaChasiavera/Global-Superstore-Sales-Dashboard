@@ -1,0 +1,466 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainerMobileState/2.5.0/schema.json",
+  "position": {
+    "x": 0,
+    "y": 751,
+    "z": 7000,
+    "height": 229,
+    "width": 324,
+    "tabOrder": 7000
+  },
+  "objects": {
+    "image": [
+      {
+        "properties": {
+          "size": {
+            "expr": {
+              "Literal": {
+                "Value": "25L"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Global_Superstore2.Avg Shipping Cost"
+        }
+      },
+      {
+        "properties": {
+          "size": {
+            "expr": {
+              "Literal": {
+                "Value": "25L"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Global_Superstore2.Quantity Sold"
+        }
+      },
+      {
+        "properties": {
+          "size": {
+            "expr": {
+              "Literal": {
+                "Value": "23L"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Global_Superstore2.Total Orders"
+        }
+      },
+      {
+        "properties": {
+          "size": {
+            "expr": {
+              "Literal": {
+                "Value": "24L"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Global_Superstore2.Total Profit"
+        }
+      },
+      {
+        "properties": {
+          "size": {
+            "expr": {
+              "Literal": {
+                "Value": "27L"
+              }
+            }
+          },
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'middle'"
+              }
+            }
+          },
+          "fit": {
+            "expr": {
+              "Literal": {
+                "Value": "'Normal'"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Global_Superstore2.Total Sales"
+        }
+      }
+    ],
+    "value": [
+      {
+        "properties": {
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "15D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Global_Superstore2.Total Sales"
+        }
+      },
+      {
+        "properties": {
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "15D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Global_Superstore2.Total Profit"
+        }
+      },
+      {
+        "properties": {
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "15D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Global_Superstore2.Total Orders"
+        }
+      },
+      {
+        "properties": {
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "15D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Global_Superstore2.Quantity Sold"
+        }
+      },
+      {
+        "properties": {
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "15D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Global_Superstore2.Avg Shipping Cost"
+        }
+      }
+    ],
+    "cardCalloutArea": [
+      {
+        "properties": {
+          "backgroundFillColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#6D9AC3'"
+                  }
+                }
+              }
+            }
+          },
+          "backgroundTransparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Global_Superstore2.Total Sales"
+        }
+      },
+      {
+        "properties": {
+          "backgroundFillColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#6D9AC3'"
+                  }
+                }
+              }
+            }
+          },
+          "backgroundTransparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Global_Superstore2.Total Profit"
+        }
+      },
+      {
+        "properties": {
+          "backgroundFillColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#6D9AC3'"
+                  }
+                }
+              }
+            }
+          },
+          "backgroundTransparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Global_Superstore2.Total Orders"
+        }
+      },
+      {
+        "properties": {
+          "backgroundFillColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#6D9AC3'"
+                  }
+                }
+              }
+            }
+          },
+          "backgroundTransparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Global_Superstore2.Quantity Sold"
+        }
+      },
+      {
+        "properties": {
+          "backgroundFillColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#6D9AC3'"
+                  }
+                }
+              }
+            }
+          },
+          "backgroundTransparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Global_Superstore2.Avg Shipping Cost"
+        }
+      }
+    ],
+    "spacing": [],
+    "label": [
+      {
+        "properties": {
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "8D"
+              }
+            }
+          },
+          "position": {
+            "expr": {
+              "Literal": {
+                "Value": "'belowValue'"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Global_Superstore2.Total Sales"
+        }
+      },
+      {
+        "properties": {
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "8D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Global_Superstore2.Total Profit"
+        }
+      },
+      {
+        "properties": {
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "8D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Global_Superstore2.Total Orders"
+        }
+      },
+      {
+        "properties": {
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "8D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Global_Superstore2.Quantity Sold"
+        }
+      },
+      {
+        "properties": {
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "8D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Global_Superstore2.Avg Shipping Cost"
+        }
+      }
+    ],
+    "outline": [
+      {
+        "properties": {
+          "show": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "lineColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          },
+          "weight": {
+            "expr": {
+              "Literal": {
+                "Value": "1D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "id": "default"
+        }
+      }
+    ],
+    "fillCustom": [],
+    "shapeCustomRectangle": [],
+    "divider": [],
+    "layout": [
+      {
+        "properties": {
+          "orientation": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          },
+          "columnCount": {
+            "expr": {
+              "Literal": {
+                "Value": "2L"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "padding": [],
+    "shadowCustom": [],
+    "border": [
+      {
+        "properties": {
+          "show": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "id": "default"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+relationship cf15ae38-79aa-4fcb-95bf-0355ebcf0711
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Global_Superstore2.'Order Date'
+	toColumn: LocalDateTable_6d82e9df-f8ac-4aec-953e-898316a4accc.Date
+
+relationship de5bb044-daf2-4843-af46-23791fa453e8
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Global_Superstore2.'Ship Date'
+	toColumn: LocalDateTable_88b49fd7-4aa8-4409-ad93-2f6dcdbc490b.Date
+

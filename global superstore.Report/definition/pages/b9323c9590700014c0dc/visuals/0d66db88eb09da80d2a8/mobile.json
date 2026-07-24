@@ -1,0 +1,52 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainerMobileState/2.5.0/schema.json",
+  "position": {
+    "x": 84,
+    "y": 30,
+    "z": 12009,
+    "height": 58,
+    "width": 217
+  },
+  "objects": {
+    "general": [
+      {
+        "properties": {
+          "paragraphs": [
+            {
+              "textRuns": [
+                {
+                  "value": "GLOBAL",
+                  "textStyle": {
+                    "fontWeight": "bold",
+                    "fontSize": "14pt",
+                    "color": "#09124f"
+                  }
+                },
+                {
+                  "value": " SUPERSTORE",
+                  "textStyle": {
+                    "fontWeight": "bold",
+                    "fontSize": "14pt",
+                    "color": "#a0d1ff"
+                  }
+                }
+              ]
+            },
+            {
+              "textRuns": [
+                {
+                  "value": "Sales Dashboard",
+                  "textStyle": {
+                    "fontWeight": "bold",
+                    "fontSize": "9pt",
+                    "color": "#ffffff"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

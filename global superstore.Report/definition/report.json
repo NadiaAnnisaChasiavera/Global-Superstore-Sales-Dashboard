@@ -1,0 +1,104 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY26SU05",
+      "reportVersionAtImport": {
+        "visual": "2.9.0",
+        "report": "3.3.0",
+        "page": "2.3.1"
+      },
+      "type": "SharedResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY26SU05",
+          "path": "BaseThemes/CY26SU05.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "17919668262104893.png",
+          "path": "17919668262104893.png",
+          "type": "Image"
+        },
+        {
+          "name": "1cc30b48-011c-45a4-b47b-23b3fc12273013932177779.png",
+          "path": "1cc30b48-011c-45a4-b47b-23b3fc12273013932177779.png",
+          "type": "Image"
+        },
+        {
+          "name": "620831512945898223.png",
+          "path": "620831512945898223.png",
+          "type": "Image"
+        },
+        {
+          "name": "71668536312990928.png",
+          "path": "71668536312990928.png",
+          "type": "Image"
+        },
+        {
+          "name": "76674210538780069382636.png",
+          "path": "76674210538780069382636.png",
+          "type": "Image"
+        },
+        {
+          "name": "86408570625729983.png",
+          "path": "86408570625729983.png",
+          "type": "Image"
+        },
+        {
+          "name": "97782877544370377.png",
+          "path": "97782877544370377.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}
